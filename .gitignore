@@ -1,0 +1,26 @@
+### Go template
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+*_test.log
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories
+vendor/
+
+### Generated/compiled files
+bin/
+.artifacts/
+
+# +---------------------------------------------------------------------------------------------------+
+# | No user specific files like IDE configurations (`.idea/` or `.vscode` etc.) may be declared here. |
+# | Use `core.excludesfile` git setting for such ignores.                                             |
+# +---------------------------------------------------------------------------------------------------+
