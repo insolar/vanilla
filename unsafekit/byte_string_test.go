@@ -1,8 +1,3 @@
-// Copyright 2020 Insolar Network Ltd.
-// All rights reserved.
-// This material is licensed under the Insolar License version 1.0,
-// available at https://github.com/insolar/assured-ledger/blob/master/LICENSE.md.
-
 package unsafekit
 
 import (
@@ -18,6 +13,7 @@ import (
 
 // In accordance with unsafe Rule (6) this behavior is NOT guaranteed. Yet it is valid for gc compiler.
 // So one should be careful with Wrap/Unwrap operations.
+//
 //go:nocheckptr
 func TestRetentionByByteString(t *testing.T) {
 	type testPtr [8912]byte // enforce off-stack allocation
